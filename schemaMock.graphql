@@ -15,7 +15,7 @@ interface AdviseMessage {
 }
 
 interface BookableOptionSearch {
-    # Supplier that offers this option.
+    # Supplieeeeeeer that offers this option.
     supplierCode: String!
 
     # Access code of this option.
