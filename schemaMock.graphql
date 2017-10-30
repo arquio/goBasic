@@ -5,7 +5,7 @@ schema {
 
 interface AdviseMessage {
     # Error code
-    code: ID!
+    code: String!
 
     # Error type
     type: String!
