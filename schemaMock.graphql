@@ -25,6 +25,8 @@ interface BookableOptionSearch {
 interface Priceable {
     # Specifies the currency.
     currency: Currency!
+    
+    code: ID!
 
     # Specifies the import.
     value: Float!
