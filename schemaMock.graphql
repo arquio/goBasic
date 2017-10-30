@@ -5,7 +5,7 @@ schema {
 
 interface AdviseMessage {
     # Error code
-    code: String!
+    code: ID!
 
     # Error type
     type: String!
@@ -15,9 +15,6 @@ interface AdviseMessage {
 }
 
 interface BookableOptionSearch {
-    # Supplieeeeeeer that offers this option.
-    supplierCode: String!
-
     # Access code of this option.
     accessCode: String!
 
