@@ -121,8 +121,6 @@ input AccessInput {
 # Input BookPax contains basic information abaout pax like name, surname and age.
 input BookPaxInput {
     # Guest's name
-	name: String!
-
 	# Guest's last name
 	surname: String!
 
